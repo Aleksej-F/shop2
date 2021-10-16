@@ -319,7 +319,7 @@ body {
  margin-top: 90px;
 }
 .s4_flexs{
-	
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -709,7 +709,7 @@ display: flex;
 }
 .s7 {
 	display: flex;
-	height: 785px;
+	margin-bottom: 30px;
 	background-color: #f7f7f7; 
 	flex-direction: column;
 }
@@ -730,10 +730,12 @@ display: flex;
 .s7_cont_cont {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+
 }
 .s7_cont_colums {
 	max-width: 270px;
-	margin: 0 15px;
+	margin: 10px 15px;
 }
 .s7_cont_colums_h2 {
 	margin-top: 18px;
